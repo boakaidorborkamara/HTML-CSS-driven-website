@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #Ebc353;
+    background-color: #faedc6;
 }
 
 nav {
@@ -54,7 +54,7 @@ main {
 
 main div:nth-child(1) {
     /* background-color: purple; */
-    width: 30%;
+    width: 25%;
     margin-top: 25px;
     margin: auto;
     margin-top: 60px;
@@ -80,9 +80,20 @@ main div:nth-child(1) img {
 
 #explaination {
     font-size: 1.3em;
+    margin-bottom: 65px;
 }
 
 #explaination span {
     font-weight: bolder;
     display: in-block;
+}
+
+button {
+    padding: 15px;
+    font-size: 1.3em;
+}
+
+button:hover {
+    cursor: pointer;
+    font-weight: bolder;
 }
