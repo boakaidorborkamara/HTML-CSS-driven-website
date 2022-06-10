@@ -5,11 +5,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>About</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
+    <header>
+        <nav>
 
+            <div>
+                <img src="../images/logo.png" alt="logo">
+            </div>
+
+            <ul>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Register</a>
+                </li>
+                <li>
+                    <a href="">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 id="form-title">Contact Me</h1>
+        <form action="">
+            <div>
+                <input type="text" placeholder="First Name" required>
+            </div>
+            <div>
+                <input type="text" placeholder="Middle Name" required>
+            </div>
+
+            <div>
+                <input type="text" placeholder="Last Name" required>
+            </div>
+            <div>
+                <input type="email" placeholder="Email" required>
+            </div>
+            <div>
+                <input type="phone" placeholder="Phone" required>
+            </div>
+            <select name="gender" id="">
+                <option value="Gender" disabled selected>Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <div>
+                <input type="text" placeholder="Country">
+            </div>
+            <div>
+                <input type="text" placeholder="State/province">
+            </div>
+            <div>
+                <input type="password" placeholder="Password">
+            </div>
+            <div>
+                <input type="password" placeholder="Confirm Password">
+            </div>
+            <textarea name="Message" id="" cols="30" rows="10">Enter Message...</textarea>
+            <div>
+                <input type="submit">
+            </div>
+
+        </form>
+    </main>
 </body>
 
 </html>

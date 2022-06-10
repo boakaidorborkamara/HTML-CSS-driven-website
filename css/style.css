@@ -52,8 +52,7 @@ main {
     display: inline-block;
 } */
 
-main div:nth-child(1) {
-    /* background-color: purple; */
+#image-area {
     width: 25%;
     margin-top: 25px;
     margin: auto;
@@ -94,6 +93,39 @@ button {
 }
 
 button:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+
+/* CONTACT STYLES  */
+
+#form-title {
+    padding-top: 25px;
+}
+
+form {
+    background-color: rgb(37, 37, 37);
+    width: 40%;
+    padding: 30px 5px 30px 5px;
+    margin: auto;
+}
+
+input,
+textarea,
+select,
+option {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+input[type="submit"] {
+    background-color: rgb(224, 193, 15);
+}
+
+input[type="submit"]:hover {
     cursor: pointer;
     font-weight: bolder;
 }
