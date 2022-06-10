@@ -139,3 +139,11 @@ input[type="submit"]:hover {
     cursor: pointer;
     font-weight: bolder;
 }
+
+footer p {
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid black;
+}
